@@ -1,4 +1,4 @@
-# active-learning-tweets
+# Active Learning performance in sentiment analysis with Spanish tweets
 Cloud based active learning project for sentiment analysis for tweets in Spanish.
 
 ## Goal
