@@ -131,6 +131,7 @@ The datasets have the following features:
 *	date: The date the tweet was twitted.
 *	lang: The language of the tweet.
 *	sentiment: The predominant sentiment of the tweet. This variable was manually labeled.
+
 For this project these five datasets were concatenated and used as a unique global dataset. The image of the head and tail of the global dataset is shown as follows.
 
 ![The original dataset](/images/dataset.png "The original dataset")
