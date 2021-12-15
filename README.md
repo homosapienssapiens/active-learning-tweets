@@ -123,6 +123,7 @@ There are several datasets available for the TASS community and it is necessary 
 *	Costa Rica
 *	Uruguay
 *	Mexico
+
 These datasets contain Spanish tweets made by people from the referred country. Each one of these have around one thousand tweets in Spanish. There is no specific criteria for the selection of the tweets.
 The datasets have the following features:
 *	user: Usuer's id
