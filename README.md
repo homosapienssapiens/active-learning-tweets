@@ -223,6 +223,7 @@ The neural network for the 4 objects of study are as follows:
 *	64 neurons hidden layer
 *	Drop out (0.9)
 *	Output layer (y)
+
 All executions had 25 epochs.
 The accuracy score was 76.07% and the f1 score was 70.76%. It was considered low but as the accuracy is not an important factor for the goals of this research, it doesn´t represent a disadvantage.
 
