@@ -197,11 +197,17 @@ Then a new dataset with only the features needed to input in the neural network 
 For the feature extraction TF-IDF vectorizing was used. TF-IDF is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. For this we create vectors of TF-IDF values depending on the total of words in the corpus. If our complete set of words were 37,000, then if a tweet has 89 words, the vectorized representation will have 89 values between 0 and 3, depending in its frequency and 36,911 zeros which represent the lack of use of those words in the tweet. So frequency is a vital factor in the value of each word represented in the vector.
 This is a widely used method to vectorize a document to perform many tasks such as ranking and clustering.
 It is the base of Google Searching algorithms.
+
 The formula:
+
 TF-IDF(i, j) = TF(i,j) * IDF(i), where:
+
 TF = Term Frequency
+
 IDF = Inverse Document Frequency
+
 TF(i,j) = Term i frequency in document j / Total words in document j
+
 IDF(i) = log(Total documents/documents with term i),
 
 ![](/images/tfidf.png)
