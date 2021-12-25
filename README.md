@@ -28,7 +28,7 @@ Active Learning can be implemented through different scenarios. In essence, deci
 * The membership query synthesis scenario might not be applicable to all cases as it implies the generation of synthetic data. In this scenario, the learner is allowed to construct its own examples for labeling. This approach is promising to solve cold-start problems (like in search) when generating a data instance is easy to do.
 
 ## Uncertainty sampling
-The approach used to determine which data instance to label next is referred to as a querying strategy. Below, we are listing those that are the most commonly used and studied ones:
+The approach used to determine which data instance to label next is referred to as a querying strategy. Below, we are listing those that are the most commonly used:
 
 ### Classification uncertainty
 The most popular among those strategies is the least confidence strategy. In classification uncertainty the model selects those instances with the lowest confidence level to be labeled next. 
